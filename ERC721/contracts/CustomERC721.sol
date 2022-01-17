@@ -12,10 +12,9 @@ contract TestToken is ERC721 {
         _owner = msg.sender;
     }
 
-    function mintProtect(address to, uint256 tokenId, string memory tokenURI) public {
-        require(_owner = msg.sender, "Not owner");
+    function mintProtect(address to, uint256 tokenId) public {
+        require(_owner == msg.sender, "Not owner");
         _mint(to,tokenId);
-        _setTokenURI(tokenId, tokenURI);
     }
 
     function sellToken(uint256 tokenId, uint256 price) public{
