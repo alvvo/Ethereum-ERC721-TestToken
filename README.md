@@ -206,7 +206,7 @@ web3.eth.getAccounts()
 let TestToken = await TestToken.deployed()
 undefined // значит все прошло успешно
 ```
-### Минтинг новый токенов
+### Минтинг новых токенов
 * Теперь мы можем вызывать функцию минта нашего контракта:
 ```
 TestToken.mintProtect("<адрес_владельца_токенаs", <id_токена>)
