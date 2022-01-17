@@ -23,8 +23,8 @@ const PrivateKeyProvider = require("truffle-privatekey-provider");
 //
 // const fs = require('fs');
 const mnemonic = require("./mnemonics/master_seed.json").mnemonic;
-const privateKey = "719e18390eb7c639e852fe0c55767e990db18e32d00fab98607e847720173d93";
-const privateKey2 = "b3ff0a4e1886ea816d958fb53bf048189f061e89a4fc765a790799a5ee3e0062";
+const privateKey = "";
+const privateKey2 = "";
 
 module.exports = {
   /**
